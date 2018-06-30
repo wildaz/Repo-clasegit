@@ -1,0 +1,278 @@
+sala502@B7-502-02 MINGW64 ~
+$ git config --global user.name "Wilmer Daza"
+
+sala502@B7-502-02 MINGW64 ~
+$ git config --global user.mail wilmerdaza@@gmail.com
+
+sala502@B7-502-02 MINGW64 ~
+$ git config --global user.email wilmerdaza@@gmail.com
+
+sala502@B7-502-02 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.name=Wilmer Daza
+user.mail=wilmerdaza@@gmail.com
+user.email=wilmerdaza@@gmail.com
+
+sala502@B7-502-02 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/sala502/.git/
+
+sala502@B7-502-02 MINGW64 ~ (master)
+$ ls
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{c0d9d40f-8932-11e7-857e-de4f21146682}.TM.blf
+ NTUSER.DAT{c0d9d40f-8932-11e7-857e-de4f21146682}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{c0d9d40f-8932-11e7-857e-de4f21146682}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ ntuser.pol
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+sala502@B7-502-02 MINGW64 ~ (master)
+$ cd D
+Datos de programa/ Desktop/           Documents/         Downloads/
+
+sala502@B7-502-02 MINGW64 ~ (master)
+$ cd Desktop/
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ ls
+ C2-IE08-8.docx
+ C2-IE09-7-1.docx
+ C2-IE49-8.docx
+ C2-IE51-8.docx
+'Copia de CUESTIONARIO.xlsx'
+ Curso40/
+ desktop.ini
+'ejercicio rentabilidad.xlsx'
+ FEDESOFT/
+ Index.html
+ index.html.txt
+ index1.html
+ Notas.docx
+ página/
+'proyectos_2016_primera_parte (1).pdf'
+ proyectos_2016_segunda_parte.pdf
+'Reunion junio 6 de 2018-documento original de la reunion.docx'
+'Reunion junio 6 de 2018-JUNIO 11.docx'
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ mkdir rep-sabado
+7
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ 7ls
+bash: 7ls: command not found
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ ls
+ C2-IE08-8.docx
+ C2-IE09-7-1.docx
+ C2-IE49-8.docx
+ C2-IE51-8.docx
+'Copia de CUESTIONARIO.xlsx'
+ Curso40/
+ desktop.ini
+'ejercicio rentabilidad.xlsx'
+ FEDESOFT/
+ Index.html
+ index.html.txt
+ index1.html
+ Notas.docx
+ página/
+'proyectos_2016_primera_parte (1).pdf'
+ proyectos_2016_segunda_parte.pdf
+ rep-sabado/
+'Reunion junio 6 de 2018-documento original de la reunion.docx'
+'Reunion junio 6 de 2018-JUNIO 11.docx'
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ cd rp-sabado
+bash: cd: rp-sabado: No such file or directory
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ cd Desktop/
+bash: cd: Desktop/: No such file or directory
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ ls
+ C2-IE08-8.docx
+ C2-IE09-7-1.docx
+ C2-IE49-8.docx
+ C2-IE51-8.docx
+'Copia de CUESTIONARIO.xlsx'
+ Curso40/
+ desktop.ini
+'ejercicio rentabilidad.xlsx'
+ FEDESOFT/
+ Index.html
+ index.html.txt
+ index1.html
+ Notas.docx
+ página/
+'proyectos_2016_primera_parte (1).pdf'
+ proyectos_2016_segunda_parte.pdf
+ rep-sabado/
+'Reunion junio 6 de 2018-documento original de la reunion.docx'
+'Reunion junio 6 de 2018-JUNIO 11.docx'
+
+sala502@B7-502-02 MINGW64 ~/Desktop (master)
+$ cd rep-sabado/
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ ls
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ pwd
+/c/Users/sala502/Desktop/rep-sabado
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ ls --hlp7
+ls: unknown option -- hlp7
+Try 'ls --help' for more information.
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ git clone https://github.com/wildaz/Repo-clasegit.git
+Cloning into 'Repo-clasegit'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ https://github.com/wildaz/Repo-clasegit.git
+bash: https://github.com/wildaz/Repo-clasegit.git: No such file or directory
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ ls
+Repo-clasegit/
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado (master)
+$ cd Repo-clasegit/
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ ls
+README.md
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ cat README.md
+# Repo-clasegit
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ ls
+IMAG0093.jpg  README.md
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ pwd
+/c/Users/sala502/Desktop/rep-sabado/Repo-clasegit
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ sit status
+bash: sit: command not found
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        IMAG0093.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git add IMAG0093.jpg
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   IMAG0093.jpg
+
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git commit
+[master b49c444] Usando Git Sen|
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 IMAG0093.jpg
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git log
+commit b49c444fa2d8ea9aa4b1657defca8a85bff5217d (HEAD -> master)
+Author: Wilmer Daza <wilmerdaza@@gmail.com>
+Date:   Sat Jun 30 15:35:59 2018 -0500
+
+    Usando Git Sen|
+
+commit 94c6222dfa33fd11690819f6f2b13defde1491d9 (origin/master, origin/HEAD)
+Author: wildaz <38287925+wildaz@users.noreply.github.com>
+Date:   Sat Jun 30 14:32:53 2018 -0500
+
+    Initial commit
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.71 MiB | 705.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/wildaz/Repo-clasegit.git
+   94c6222..b49c444  master -> master
+
+sala502@B7-502-02 MINGW64 ~/Desktop/rep-sabado/Repo-clasegit (master)
